@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crypto Valuations!</title>
+	<meta charset="utf-8">
+    <!-- set viewport to device width to allow responsiveness -->
+    <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+    	.wrapper{
+    		display:grid;
+    		grid-template-columns: 40% 30% 30%;
+    		grid-column-gap:1em;
+    	}
+
+    	.wrapper > div{
+    		background:#eee;
+    		padding:1em;
+    	}
+
+	</style>
+</head>
+<body>
+
+
+<div class="wrapper"> 
+		
+
+
+<h1>Bitcoin Currency Converter</h1>
+<ul id="cryptoValues"></ul>
+
+
+
+<h3>USD GBP EUR</h3>
+<p>Enter Foreign Currency:<input type="text" id="whichCrypto"></p>
+<button id="btn">Click to Find Bit Coin Value!</button>
+
+
+<div id="BitcoinInfo"> <p id="outputValue"> </p> </div>
+
+</div>
+
+ 
+<script src="http://code.jquery.com/jquery-2.2.2.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
